@@ -73,8 +73,24 @@ button {
   margin : 0.5%;
 }
 
-
+.video{
+  margin: 2% auto 2% auto;
+}
 
 footer{
   margin-top: 2%;
+}
+.player{
+  position: relative;
+  bottom: 50px;
+  left: 250px;
+}
+
+.audio{
+  margin-top: 5%;
+}
+
+.click{
+  position: relative;
+  right: 150px;
 }
