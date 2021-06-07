@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Heading"
 import Footer from "./Footer"
 import MediaPlayer from "./MediaPlayer";
-import Recorder from "./Recorder";
+import Audio from "./Audio";
 // import Form from "./Form.jsx"
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
       <br />
 
       <h1>Audio Recorder</h1>
-      <Recorder />
+      <Audio />
       
       <Footer />
     </div>
