@@ -9,14 +9,12 @@ function Audio(){
     <div className = "audio">
         <audio className = "player" src = {audioURL} controls />
 
-        <button
-         className = "click"
+        <button className = "click"
          onClick = {startRecording} 
          disabled = {isRecording} 
           >Start</button>
 
-        <button 
-        className = "click" 
+        <button className = "click" 
         onClick = {stopRecording} 
         disabled = {!isRecording} 
          >Stop</button>
